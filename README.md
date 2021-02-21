@@ -1,6 +1,6 @@
 # Example Package
 
-remember to set a ~/.pypirc file (or newer equivalent) with the Nexus login details
+remember to set a <code>~/.pypirc</code> file (or newer equivalent) with the Nexus login details
 e.g.
 
 ```
