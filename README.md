@@ -1,5 +1,14 @@
 # Example Package
 
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+remember to set a ~/.pypirc file (or newer equivalent) with the Nexus login details
+e.g.
+
+[distutils]
+index-servers =
+    nexus
+
+[nexus]
+repository = http://localhost:8081/repository/localpypi/
+username = <user>
+password = <pass>
+
